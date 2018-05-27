@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:us="http://springSoapExamples.com/spring-soap-examples">
+	<soapenv:Header />
+	<soapenv:Body>
+		<us:getUserRequest>
+			<us:userName>Anudeep</us:userName>
+		</us:getUserRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
